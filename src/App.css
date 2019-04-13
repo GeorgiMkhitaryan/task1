@@ -1,0 +1,32 @@
+.addBlok{
+  margin: auto;
+}
+.display-data-Container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.Container{
+  border: 1px solid black;
+  text-align: center;
+  width: 250px;
+  height: 150px;
+  min-width: 250px;
+  color: white;
+}
+.button{
+  text-align: center;
+}
+.buttonAdd{
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  background-color: coral;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.buttonAdd:hover{
+  box-shadow: 3px 3px 15px gray;
+  transform: scale( 0.9);
+}
